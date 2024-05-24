@@ -1,17 +1,18 @@
 /* GENERAL RULES */
+
 a {
     text-decoration: none;
 }
 
+/* REGOLE HEADER */
 
-/* HEADER RULES */
 header {
     width: 100%;
     background-color: rgba(44,62,80,255);
+    height: 70px;
     position: fixed;
     top: 0;
     left: 0;
-    height: 70px;
     z-index: 100;
 }
 
@@ -19,3 +20,59 @@ header a {
     color: white;
 }
 
+.alt {
+    height: 70px;
+}
+
+
+/* REGOLE MAIN */
+main {
+    padding-top: 70px;
+}
+
+#fix-padding {
+    padding-top: 20px;
+}
+
+.bg-not-white {
+    width: 100%;
+    background-color: rgba(26,188,156,255);
+    margin-bottom: 30px;
+}
+
+.bg-white {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+
+.wh {
+    color: white;
+}
+
+.bl {
+    color: black;
+}
+
+
+
+/* REGOLE FOOTER */
+footer {
+    width: 100%;
+    background-color: rgba(58,84,109,255);
+}
+
+.bottom-footer {
+    background-color: rgba(44,62,80,255);
+}
+
+
+
+
+/* DEBUG */
+.debug {
+    min-height: 70px;
+    border: 2px solid black;
+    background-color: red;
+}

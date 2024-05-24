@@ -1,0 +1,21 @@
+/* GENERAL RULES */
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER RULES */
+header {
+    width: 100%;
+    background-color: rgba(44,62,80,255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    z-index: 100;
+}
+
+header a {
+    color: white;
+}
+

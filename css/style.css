@@ -1,7 +1,6 @@
 /* GENERAL RULES */
 * {
     font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
-    font-weight: bold;
 }
 
 a {
@@ -17,6 +16,7 @@ header {
     background-color: rgba(44,62,80,255);
     height: 60px;
     position: fixed;
+    font-weight: bold;
     top: 0;
     left: 0;
     z-index: 100;
@@ -85,11 +85,15 @@ main {
 
 
 .titolo-grande {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .titolo-medio {
-    font-size: 2rem;
+    font-size: 3rem;
+}
+
+.titolo-piccolo {
+    font-size: 1.5rem;
 }
 
 .wh {
@@ -134,9 +138,10 @@ main {
 /* REGOLE FORM */
 .form-control {
     border: 0px;
-    border-bottom: 2px solid grey;
+    border-bottom: 1px solid grey;
     border-radius: 0;
     transition: none;
+    padding-left: 0;
 }
 
 .form-control:focus {
@@ -148,8 +153,9 @@ main {
 }
 
 .form-control::placeholder {
-    color: red;
+    color: rgba(44,62,80,255);
     opacity: 1; /* Firefox */
+    font-weight: bold;
   }
 
 

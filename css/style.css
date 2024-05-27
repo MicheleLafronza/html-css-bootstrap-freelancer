@@ -1,4 +1,7 @@
 /* GENERAL RULES */
+* {
+    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+}
 
 a {
     text-decoration: none;
@@ -9,7 +12,7 @@ a {
 header {
     width: 100%;
     background-color: rgba(44,62,80,255);
-    height: 70px;
+    height: 60px;
     position: fixed;
     top: 0;
     left: 0;
@@ -24,10 +27,35 @@ header a {
     height: 70px;
 }
 
+#avatar-image {
+    max-width: 100%;
+}
+
+/* NAVBAR RULES */
+header .navbar-brand {
+    color: white;
+}
+
+header .navbar-toggler {
+    border: solid rgba(221,221,221,255);
+}
+
+
+header .nav-link {
+    color: white;
+}
+
+header .navbar-brand:hover {
+    color: white;
+}
+
+header .nav-link:hover {
+    color: green;
+}
 
 /* REGOLE MAIN */
 main {
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
 #fix-padding {
@@ -46,7 +74,6 @@ main {
     margin-bottom: 30px;
 }
 
-
 .wh {
     color: white;
 }
@@ -54,6 +81,41 @@ main {
 .bl {
     color: black;
 }
+
+.card-image {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.line {
+    border-bottom: 2px solid white;
+    height: 100%;
+}
+
+.box {
+    position: relative;
+}
+
+/* REGOLE FORM */
+.form-control {
+    border: 0px;
+    border-bottom: 2px solid grey;
+    border-radius: 0;
+    transition: none;
+}
+
+.form-control:focus {
+    color: black;
+    background-color: #fff;
+    border-color: grey;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: red;
+    opacity: 1; /* Firefox */
+  }
 
 
 

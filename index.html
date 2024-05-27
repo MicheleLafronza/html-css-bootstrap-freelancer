@@ -12,22 +12,38 @@
 
     <!-- header -->
     <header>
-        <div class="container">
-            <div class="row justify-content-between align-items-center alt">
-                <div class="col">
-                    <a href="#">
-                        STARTING BOOTSTRAP
-                    </a>
-                </div>
-                <div class="col text-end">
-                    <a href="#">
-                        <i class="fa-solid fa-bars"></i>
-                    </a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    START BOOTSTRAP
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-lg-grow-0" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            PORTFOLIO
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            ABOUT
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            CONTACT
+                        </a>
+                    </li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </nav>
     </header>
-    <!-- /header -->
+
+
 
     <!-- main -->
     <main>
@@ -36,9 +52,20 @@
             <div class="container">
                 <div class="row wh">
                     <div class="col text-center">
-                        <h2>GRANDE IMMAGINE</h2>
-                        <h3>START BOOTSTRAP</h3>
-                        <hr>
+                        <div class="row justify-content-center">
+                            <div class="col-6 col-md-3">
+                                <img src="img/avatar.svg" alt="" id="avatar-image">
+                            </div>
+                        </div>
+                        
+                        <h2>START BOOTSTRAP</h2>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-2 line"></div>
+                            <div class="col-1">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="col-2 line"></div>
+                        </div>
                         <h6>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h6>
                     </div>
                 </div>
@@ -56,12 +83,31 @@
                 </div>
 
                 <div class="row g-2">
-                    <div class="col-12 col-md-6 col-lg-4 debug"></div>
-                    <div class="col-12 col-md-6 col-lg-4 debug"></div>
-                    <div class="col-12 col-md-6 col-lg-4 debug"></div>
-                    <div class="col-12 col-md-6 col-lg-4 debug"></div>
-                    <div class="col-12 col-md-6 col-lg-4 debug"></div>
-                    <div class="col-12 col-md-6 col-lg-4 debug"></div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="box">
+                            <img src="img/cabin.png" alt="" class="card-image">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="img/cake.png" alt="" class="card-image">
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="img/circus.png" alt="" class="card-image">
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="img/game.png" alt="" class="card-image">
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="img/safe.png" alt="" class="card-image">
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="img/submarine.png" alt="" class="card-image">
+                    </div>
                 </div>
             </div>
         </section>
@@ -99,9 +145,16 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col-10 debug">
-                        Name
+
+                    <div class="col-10">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">
+                                Email address
+                            </label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
+                        </div>
                     </div>
+
                     <div class="col-10 debug">
                         Email
                     </div>
@@ -179,6 +232,6 @@
 
 
     
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

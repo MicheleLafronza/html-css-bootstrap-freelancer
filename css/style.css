@@ -14,7 +14,6 @@ a {
 header {
     width: 100%;
     background-color: rgba(44,62,80,255);
-    height: 60px;
     position: fixed;
     font-weight: bold;
     top: 0;

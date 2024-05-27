@@ -1,11 +1,14 @@
 /* GENERAL RULES */
 * {
     font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
 
 a {
     text-decoration: none;
 }
+
+
 
 /* REGOLE HEADER */
 
@@ -31,6 +34,7 @@ header a {
     max-width: 100%;
 }
 
+
 /* NAVBAR RULES */
 header .navbar-brand {
     color: white;
@@ -53,6 +57,11 @@ header .nav-link:hover {
     color: green;
 }
 
+
+
+
+
+
 /* REGOLE MAIN */
 main {
     padding-top: 60px;
@@ -74,6 +83,15 @@ main {
     margin-bottom: 30px;
 }
 
+
+.titolo-grande {
+    font-size: 3rem;
+}
+
+.titolo-medio {
+    font-size: 2rem;
+}
+
 .wh {
     color: white;
 }
@@ -87,13 +105,30 @@ main {
     border-radius: 15px;
 }
 
-.line {
+.line-wh {
     border-bottom: 2px solid white;
     height: 100%;
 }
 
+.line-bl {
+    border-bottom: 2px solid black;
+    height: 100%;
+}
+
+.fa-star {
+    font-size: 2rem;
+}
+
 .box {
     position: relative;
+}
+
+#download-btn {
+    border: 1px solid white;
+}
+
+#download-btn:hover {
+    color: green;
 }
 
 /* REGOLE FORM */
